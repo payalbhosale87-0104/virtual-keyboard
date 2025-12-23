@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Simple Virtual Keyboard</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- <h1>Virtual Keyboard</h1> -->
+  <div class="wrap">
+    <div id="display" class="display" contenteditable="true" spellcheck="false"></div>
+    
+    
+    <div class="keyboard" id="keyboard">
+      <div class="row" id="row1">
+        <div class="key" data-key="`">`</div>
+        <div class="key" data-key="1">1</div>
+        <div class="key" data-key="2">2</div>
+        <div class="key" data-key="3">3</div>
+        <div class="key" data-key="4">4</div>
+        <div class="key" data-key="5">5</div>
+        <div class="key" data-key="6">6</div>
+        <div class="key" data-key="7">7</div>
+        <div class="key" data-key="8">8</div>
+        <div class="key" data-key="9">9</div>
+        <div class="key" data-key="0">0</div>
+      </div>
+
+    <div class="keyboard" id="keyboard">
+      <div class="row" id="row2">
+        <div class="key" data-key="tab">Tab</div>
+        <div class="key" data-key="q">Q</div>
+        <div class="key" data-key="w">W</div>
+        <div class="key" data-key="e">E</div>
+        <div class="key" data-key="r">R</div>
+        <div class="key" data-key="t">T</div>
+        <div class="key" data-key="y">Y</div>
+        <div class="key" data-key="u">U</div>
+        <div class="key" data-key="i">I</div>
+        <div class="key" data-key="o">O</div>
+        <div class="key" data-key="p">P</div>
+      </div>
+
+      <div class="row" id="row3">
+        <div class="key" data-key="a">A</div>
+        <div class="key" data-key="s">S</div>
+        <div class="key" data-key="d">D</div>
+        <div class="key" data-key="f">F</div>
+        <div class="key" data-key="g">G</div>
+        <div class="key" data-key="h">H</div>
+        <div class="key" data-key="j">J</div>
+        <div class="key" data-key="k">K</div>
+        <div class="key" data-key="l">L</div>
+        <div class="key wide" data-key="back">Backspace</div>
+      </div>
+
+      <div class="row" id="row4">
+        <div class="key wide" data-key="shift">Shift</div>
+        <div class="key" data-key="z">Z</div>
+        <div class="key" data-key="x">X</div>
+        <div class="key" data-key="c">C</div>
+        <div class="key" data-key="v">V</div>
+        <div class="key" data-key="b">B</div>
+        <div class="key" data-key="n">N</div>
+        <div class="key" data-key="m">M</div>
+        <div class="key wide" data-key="enter">Enter</div>
+      </div>
+
+      <div class="row" id="row4">
+        <div class="key" data-key="caps">Caps</div>
+        <div class="key space" data-key="space">Space</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
